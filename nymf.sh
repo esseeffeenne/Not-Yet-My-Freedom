@@ -8,7 +8,6 @@ WHITE="\033[37m"
 while getopts ":hvqc" option; do
   case $option in
       h) printf "usage:
-\t"$0" {-q --quiet}\n
 \t"$0" {-v --verbose}\n
 \t"$0" {-c --no-color}\n"; exit ;;
       v) verbose=1 ;;
